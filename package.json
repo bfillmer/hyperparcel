@@ -11,6 +11,7 @@
   "author": "Bryan Fillmer",
   "license": "ISC",
   "dependencies": {
+    "@hyperapp/logger": "^0.4.1",
     "hyperapp": "^1.1.2",
     "serve": "^6.4.11"
   },
