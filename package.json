@@ -1,22 +1,23 @@
 {
   "name": "hyperparcel",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Testing out hyperapp and parcel.",
+  "main": "src/index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./"
+    "build": "parcel build src/index.html --public-url ./",
+    "now-start": "serve dist/"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Bryan Fillmer",
   "license": "ISC",
   "dependencies": {
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.6.1",
     "hyperapp": "^1.1.2",
-    "parcel-bundler": "^1.6.2"
+    "serve": "^6.4.11"
   },
   "devDependencies": {
-    "standard": "^11.0.0"
+    "standard": "^11.0.0",
+    "parcel-bundler": "^1.6.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
   }
 }

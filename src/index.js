@@ -1,2 +1,10 @@
+/** @jsx h */
+import {h, app} from 'hyperapp'
 
-console.log('hello parcel')
+const view = () => (
+  <div>
+    hello hyperapp
+  </div>
+)
+
+app({}, {}, view, document.getElementById('root'))
